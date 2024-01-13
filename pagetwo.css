@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  margin-left: 144px;
+}
+
+.buttons {
+ display: flex;
+margin-left: 300px;
+}
+
+.custom-profile-button {
+    background-color: #000000 !important;
+    border: none !important;
+}
+
+.custom-upvote-button {
+  background-color: #fbf0e0 !important;
+  border-color: #000000 !important;
+  color: #000000 !important;
+}

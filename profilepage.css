@@ -1,0 +1,78 @@
+.search {
+    display: flex;
+    margin-left: 270px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 140px;
+}
+
+.card {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+.card-text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body{
+    background-color: #fbf0e0;
+    column-width: 20rem;
+    border: 2px solid #000000;
+}
+
+.profile-card-container {
+    display: flex;
+    justify-content: center; /* horizontally center the content within the row */
+    align-items: center; /* vertically center the content within the row */
+  }
+  
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+}
+  
+.profile-image {
+    margin-top: 10px;
+}
+  
+.profile-card-content {
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    width: 434px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: #fbf0e0;
+}
+  
+.profile-card-content .profile-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.profile-card-content .profile-text {
+  text-align: center;
+}
+
+.custom-profile-button {
+    background-color: #000000 !important;
+    border: none !important;
+}
+
+.custom-upvote-button {
+    background-color: #ffffff !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+  }

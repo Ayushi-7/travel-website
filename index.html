@@ -1,0 +1,127 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <title>Get Lost</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <center><img src="Images/Get Lost Logo.png" width="240" height="120" alt=""></center>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-primary" id="signup">Sign Up</button>
+            <button type="button" class="btn btn-primary" id="login">Login</button>
+        </div>
+        
+        <center>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="2000">
+                <img src="Images/one.png" class="d-block w-75" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/two.png" class="d-block w-75" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/three.png" class="d-block w-75" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/four.png" class="d-block w-75" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/five.png" class="d-block w-75" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </center>
+
+          <div class="row">
+              <div class="card" style="width: 40rem">
+                <img src="Images/four.png" alt="...">
+                <div class="card-body" style="height: 21.61rem">
+                  <h5 class="card-title">Features</h5>
+                  <p class="card-text">Some random feature listed but why is nit andia iwah oiwadawbhawbbkawn awdinioawbkj bakjbawf bdwb</p>
+                </div>
+            </div>
+          <div class="column">
+            <div class="card" style="width: 40rem">
+              <img src="Images/one.png" alt="...">
+              <div class="card-body" style="height: 22.5rem">
+                <h5 class="card-title">Features</h5>
+                <p class="card-text">Some random feature listed but why is nit andia iwah oiwadawbhawbbkawn awdinioawbkj bakjbawf bdwb</p>
+              </div>
+          </div>
+
+
+          <!-- Modal code -->
+          <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="loginModalTitle">Log Into Account</h5>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="username" class="form-label">Username</label>
+                      <input type="text" class="form-control" id="postTitle">
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="text" class="form-control" id="postContent"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close">Close</button>
+                  <button type="button" class="btn btn-primary">Log in</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="signupModalLabel">New message</h5>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email" class="col-form-label">Email</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="username" class="col-form-label">Username</label>
+                      <input type="text" class="form-control" id="username">
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="col-form-label">Password</label>
+                      <input type="text" class="form-control" id="password">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close1">Close</button>
+                  <button type="button" class="btn btn-primary" id="createaccount">Create Account</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+          <script src="index.js"></script>
+    </body>
+</html>
