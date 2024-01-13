@@ -33,7 +33,3 @@ Functionality:
 4) Users can add comments to posts written by other users. This would be useful if a user wants to share their own experiences or add more details to an existing post.
 
 5) The website would be organized by location, where users can pick a location and see a list of posts and comments related to that location.
-
-License:
-The license we chose is the MIT License.
-[MIT License] (https://opensource.org/license/mit/)
