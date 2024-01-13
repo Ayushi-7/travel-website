@@ -1,7 +1,6 @@
-# Team 17 Project
-Application Name: Get Lost
+# Application Name: Get Lost
 
-Team Overview: 
+Collaborators: 
 Ayushi Jain (@Ayushi-7),
 Sreya Nimmagadda (@sreyanimm),
 Sriya Maguluri (@smaguluri14),
